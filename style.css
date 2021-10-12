@@ -1,0 +1,84 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: blueviolet;
+    background-color: burlywood;
+
+}
+
+#show_sketch{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+p{
+    margin-top: 15px;
+    font-size: 25px;
+    color: coral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+canvas{
+    margin-top: 19px;
+    border: 10px double indianred;
+    border-radius: 25px;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example1{
+ from{
+     box-shadow: 10px 10px 35px yellow;
+ }
+ to{
+     box-shadow: 10px 10px 35px royalblue;
+ }
+}
+
+#footer{
+ bottom: 0px;
+ font-size: 20px;
+ position: fixed;
+ background-color: skyblue;
+ margin-bottom: 30px;
+ text-align: center;
+ width: 100%;
+ font-family: 'Ubuntu', sans-serif;
+ font-weight: bold;
+ animation-name: example2;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes example2{
+    to{
+        background-color: rgb(250, 152, 24);
+        color: teal;
+        box-shadow: 10px 10px 15px turquoise;
+    }
+
+    from{
+        background-color:teal;
+        color: yellow;
+        box-shadow: 10px 10px 15px lightcoral; 
+    }
+}
+
+#heading:hover{
+  font-size: 45px;
+  cursor: not-allowed;
+  font-family: cursive;
+}
+
+#show_sketch:hover{
+    font-size: 15px;
+    cursor: pointer;
+    font-family: cursive;   
+    background-color: lightsalmon;
+    color:black;
+    border-radius: 20px;
+}
